@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202124;
+}
+
+.game-boy-base {
+  width: 350px;
+  height: 520px;
+  background-color: #FF5733;
+  border-radius: 10px 10px 50px 10px;
+}
+.border-screen {
+  width: 320px;
+  height: 45%;
+  margin: 40px auto;
+  background-color: #45494a;
+  border-radius: 10px 10px 50px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.screen {
+  background-color: #aabc92;
+  border-radius: 10px;
+  width: 75%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen img {
+  width: 70%;
+}
+.power-container {
+  position: absolute;
+  top: 80px;
+  left: 3px;
+  color: #aabc92;
+  font-weight: bold;
+}
+.title-container {
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+}
+.name {
+  font-size: 13px;
+  color: #aabc92;
+}
+.pocket {
+  color: #45494a;
+  background-color: #aabc92;
+  padding: 2px 5px 0px 0px;
+  font-size: 12px;
+  border-radius: 1px;
+}
+.power-container > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2px;
+}
+.power-container > span {
+  font-size: 9px;
+  margin-top: -5px;
+}
+.power-arrow {
+  font-size: 10px;
+}
+.power-led {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+}
+.main-buttons-container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cross-arrow-container svg {
+  width: 20px;
+  height: 20px;
+}
+.cross-middle {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #404445;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #444851;
+  border-radius: 50%;
+}
+.cross-middle > div:not(.circle) {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #404445;
+  border-radius: 3px 3px 0px 0px;
+}
+.cross-up {
+  top: -30px;
+} 
+.cross-right {
+  right: -30px;
+  transform: rotate(90deg);
+} 
+.cross-down {
+  bottom: -30px;
+  transform: rotate(180deg);
+} 
+.cross-left {
+  left: -30px;
+  transform: rotate(270deg);
+}
+.a-button-container, .b-button-container {
+  width: 45px;
+  height: 45px;
+  background-color: #404445;
+  border-radius: 50%;
+}
+.a-button-container {
+  margin-bottom: 35px;
+}
+.action-buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.b-button, .a-button {
+  position: relative;
+  height: 100%;
+}
+.b-button span, .a-button span {
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  bottom: -25px;
+  right: 15px;
+  font-weight: bold;
+}
+.setting-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+.setting-buttons-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.start-button, .select-button {
+  width: 50px;
+  height: 10px;
+  background-color: #404445;
+  border-radius: 4px;
+}
+.setting-buttons-container span {
+  color: black;
+  font-weight: bold;
+}
