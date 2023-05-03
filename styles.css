@@ -120,18 +120,18 @@ body {
   border-radius: 3px 3px 0px 0px;
 }
 .cross-up {
-  top: -30px;
+  top: -29px;
 } 
 .cross-right {
-  right: -30px;
+  right: -29px;
   transform: rotate(90deg);
 } 
 .cross-down {
-  bottom: -30px;
+  bottom: -29px;
   transform: rotate(180deg);
 } 
 .cross-left {
-  left: -30px;
+  left: -29px;
   transform: rotate(270deg);
 }
 .a-button-container, .b-button-container {
