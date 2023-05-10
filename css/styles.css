@@ -178,6 +178,7 @@ body {
   height: 10px;
   background-color: #404445;
   border-radius: 4px;
+  cursor: pointer;
 }
 .setting-buttons-container span {
   color: black;
